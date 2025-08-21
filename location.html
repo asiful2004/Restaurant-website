@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location - Bella Vista Restaurant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>Bella Vista</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="location.html" class="nav-link active">Location</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Find Us</h1>
+            <p>Visit us at our beautiful downtown location</p>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location-section">
+        <div class="container">
+            <!-- Map Container -->
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <div class="map-content">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Interactive Map</h3>
+                        <p>123 Restaurant Street, Downtown District</p>
+                        <button class="btn btn-primary" onclick="openMap()">
+                            <i class="fas fa-directions"></i>
+                            Get Directions
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Location Information -->
+            <div class="location-info">
+                <div class="location-details">
+                    <div class="location-card">
+                        <h2>Restaurant Location</h2>
+                        <div class="address-info">
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h3>Address</h3>
+                                    <p>123 Restaurant Street<br>Downtown District<br>City, State 12345</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h3>Phone</h3>
+                                    <p>(555) 123-4567</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h3>Hours</h3>
+                                    <div class="hours-list">
+                                        <p><span>Monday - Thursday:</span> 11:00 AM - 10:00 PM</p>
+                                        <p><span>Friday - Saturday:</span> 11:00 AM - 11:00 PM</p>
+                                        <p><span>Sunday:</span> 12:00 PM - 9:00 PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Parking Information -->
+                    <div class="parking-info">
+                        <h3><i class="fas fa-parking"></i> Parking Information</h3>
+                        <ul>
+                            <li>Complimentary valet parking available</li>
+                            <li>Street parking available on Restaurant Street</li>
+                            <li>Public parking garage located 2 blocks away</li>
+                            <li>Validated parking for guests dining 2+ hours</li>
+                        </ul>
+                    </div>
+
+                    <!-- Public Transportation -->
+                    <div class="transport-info">
+                        <h3><i class="fas fa-bus"></i> Public Transportation</h3>
+                        <ul>
+                            <li>Metro Station: Downtown Central (0.3 miles)</li>
+                            <li>Bus Lines: 5, 12, 18 stop at Restaurant Street</li>
+                            <li>Taxi and rideshare services readily available</li>
+                            <li>Bike parking available in front of restaurant</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Neighborhood Information -->
+                <div class="neighborhood-info">
+                    <h2>Our Neighborhood</h2>
+                    <p>Bella Vista is located in the heart of the downtown district, surrounded by cultural attractions, shopping, and entertainment venues. Our prime location makes us the perfect destination for a memorable dining experience.</p>
+                    
+                    <div class="nearby-attractions">
+                        <h3>Nearby Attractions</h3>
+                        <div class="attractions-grid">
+                            <div class="attraction-item">
+                                <i class="fas fa-theater-masks"></i>
+                                <div>
+                                    <h4>City Theater</h4>
+                                    <p>2 blocks away</p>
+                                </div>
+                            </div>
+                            <div class="attraction-item">
+                                <i class="fas fa-palette"></i>
+                                <div>
+                                    <h4>Art Museum</h4>
+                                    <p>3 blocks away</p>
+                                </div>
+                            </div>
+                            <div class="attraction-item">
+                                <i class="fas fa-shopping-bag"></i>
+                                <div>
+                                    <h4>Shopping District</h4>
+                                    <p>1 block away</p>
+                                </div>
+                            </div>
+                            <div class="attraction-item">
+                                <i class="fas fa-tree"></i>
+                                <div>
+                                    <h4>Central Park</h4>
+                                    <p>4 blocks away</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation CTA -->
+    <section class="reservation-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Visit?</h2>
+                <p>Make a reservation today and experience exceptional dining at Bella Vista</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Make Reservation</a>
+                    <a href="tel:+15551234567" class="btn btn-secondary">
+                        <i class="fas fa-phone"></i>
+                        Call Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Bella Vista</h3>
+                    <p>Experience exceptional dining with our carefully crafted dishes and warm hospitality.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="location.html">Location</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Restaurant Street, City, State 12345</p>
+                        <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@bellavista.com</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Hours</h4>
+                    <div class="hours">
+                        <p>Monday - Thursday: 11:00 AM - 10:00 PM</p>
+                        <p>Friday - Saturday: 11:00 AM - 11:00 PM</p>
+                        <p>Sunday: 12:00 PM - 9:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bella Vista Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

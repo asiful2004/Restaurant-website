@@ -1,0 +1,13 @@
+This directory is for storing restaurant images.
+The website uses external image URLs from Pixabay for demonstration purposes.
+
+If you want to use local images instead, place them in this directory and update the image URLs in the HTML files accordingly.
+
+Recommended images:
+- Food dishes (8 images)
+- Restaurant interior (4 images) 
+- Chef cooking (2 images)
+- Restaurant logo/branding images
+
+Image formats supported: JPG, PNG, WebP
+Recommended dimensions: 1280x720px for optimal loading

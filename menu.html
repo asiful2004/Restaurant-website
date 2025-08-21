@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Bella Vista Restaurant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>Bella Vista</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html" class="nav-link active">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="location.html" class="nav-link">Location</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Menu</h1>
+            <p>Discover our carefully curated selection of dishes</p>
+        </div>
+    </section>
+
+    <!-- Menu Categories -->
+    <section class="menu-section">
+        <div class="container">
+            <!-- Menu Navigation -->
+            <div class="menu-nav">
+                <button class="menu-nav-btn active" data-category="appetizers">Appetizers</button>
+                <button class="menu-nav-btn" data-category="mains">Main Courses</button>
+                <button class="menu-nav-btn" data-category="desserts">Desserts</button>
+                <button class="menu-nav-btn" data-category="beverages">Beverages</button>
+            </div>
+
+            <!-- Appetizers -->
+            <div class="menu-category active" id="appetizers">
+                <h2>Appetizers</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://pixabay.com/get/g624f55f8b75669ebb6928e33de5441817fe4c8fd8e7ed8d51e37d03670f815b1ad7b1889b28d17e8444e8cddcd491baa7604f105e7a188a8a9d29464e82da807_1280.jpg" alt="Bruschetta">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Fresh Bruschetta</h3>
+                            <p>Toasted bread topped with fresh tomatoes, basil, and mozzarella</p>
+                            <span class="price">$8.99</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://pixabay.com/get/g0f2d13929f0b1e2e006460263a4159c8f39ac093da00d82eff9d359c01f02eda2d897cdac65fec3d7b7ee419a336864613d3a72fbf62d48e974033382c09f1b4_1280.jpg" alt="Calamari">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Crispy Calamari</h3>
+                            <p>Fresh squid rings served with marinara sauce and lemon</p>
+                            <span class="price">$12.99</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://pixabay.com/get/g9acd2d7146f3058751d99b3ad8889d67c1f2055a6bf59bf7eb11c09ed9fade95ede1e0e0a64f04a39c66137c10702af1b12c207dc41cb4d299cd0667b292857f_1280.jpg" alt="Cheese Board">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Artisan Cheese Board</h3>
+                            <p>Selection of fine cheeses with crackers, nuts, and honey</p>
+                            <span class="price">$16.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Courses -->
+            <div class="menu-category" id="mains">
+                <h2>Main Courses</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://pixabay.com/get/g1e69d80de2969c8099e025eb9add2755a4f7e5454b78980f080cd56d3a2b13dbac654a2a112774d0f244e89cc360764733bcbce7ba94a905f66ff16a11a782ec_1280.jpg" alt="Grilled Salmon">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Grilled Atlantic Salmon</h3>
+                            <p>Fresh salmon with herbs, lemon butter sauce, and seasonal vegetables</p>
+                            <span class="price">$28.99</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://pixabay.com/get/gbc08d64ce2857a91f12bb763c3f2bddff1b635e3d0c3e5c18d52a8431a9aa82733c9d9221d1f8b8bbe8da696c4ca350ab9e59b68ebdee845f02f076146f53388_1280.jpg" alt="Pasta">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Truffle Pasta</h3>
+                            <p>Handmade pasta with truffle oil, parmesan, and wild mushrooms</p>
+                            <span class="price">$24.99</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://pixabay.com/get/gc1baa6e2356c17d2482e9dd373a7462719bb096dc1e84cdcfcf06d80bf66b8e22b6ef1ed54f46c8e45a3e3803a7ac76eca35d0cc756ce3aa7bb50f46408c34fa_1280.jpg" alt="Steak">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Ribeye Steak</h3>
+                            <p>Prime ribeye steak grilled to perfection with garlic mashed potatoes</p>
+                            <span class="price">$34.99</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://pixabay.com/get/gc195eef4f1889d309d91391b8cf0cbe702ad92b32c5cae64978329d01a9a581d2d84403436eb9ec2e54a6be085aa5951b15efdad2a845cc99dd3418a30cfb5da_1280.jpg" alt="Chicken">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Herb-Crusted Chicken</h3>
+                            <p>Free-range chicken breast with rosemary, thyme, and roasted vegetables</p>
+                            <span class="price">$22.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desserts -->
+            <div class="menu-category" id="desserts">
+                <h2>Desserts</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://pixabay.com/get/g9cbbf52489f90173679efd5f327d12b6b05e2c641b0c2d1197db3f893c0f19cfff5ddf3e82557912ead41b0d31d1fd60bc62f032ef8c566b0b1d935c666b4d28_1280.jpg" alt="Chocolate Souffle">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Chocolate Soufflé</h3>
+                            <p>Rich chocolate dessert with vanilla ice cream and berry compote</p>
+                            <span class="price">$12.99</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://pixabay.com/get/g624f55f8b75669ebb6928e33de5441817fe4c8fd8e7ed8d51e37d03670f815b1ad7b1889b28d17e8444e8cddcd491baa7604f105e7a188a8a9d29464e82da807_1280.jpg" alt="Tiramisu">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Classic Tiramisu</h3>
+                            <p>Traditional Italian dessert with coffee-soaked ladyfingers and mascarpone</p>
+                            <span class="price">$9.99</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://pixabay.com/get/g0f2d13929f0b1e2e006460263a4159c8f39ac093da00d82eff9d359c01f02eda2d897cdac65fec3d7b7ee419a336864613d3a72fbf62d48e974033382c09f1b4_1280.jpg" alt="Cheesecake">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>New York Cheesecake</h3>
+                            <p>Creamy cheesecake with graham cracker crust and fresh berries</p>
+                            <span class="price">$8.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Beverages -->
+            <div class="menu-category" id="beverages">
+                <h2>Beverages</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <h3>Fresh Juices</h3>
+                            <p>Orange, Apple, Cranberry, Pineapple</p>
+                            <span class="price">$4.99</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <h3>Coffee & Tea</h3>
+                            <p>Espresso, Cappuccino, Latte, Green Tea, Black Tea</p>
+                            <span class="price">$3.99</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <h3>Soft Drinks</h3>
+                            <p>Coca-Cola, Sprite, Orange Soda, Sparkling Water</p>
+                            <span class="price">$2.99</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <h3>Wine Selection</h3>
+                            <p>Red Wine, White Wine, Sparkling Wine (by glass)</p>
+                            <span class="price">$8.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Bella Vista</h3>
+                    <p>Experience exceptional dining with our carefully crafted dishes and warm hospitality.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="location.html">Location</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Restaurant Street, City, State 12345</p>
+                        <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@bellavista.com</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Hours</h4>
+                    <div class="hours">
+                        <p>Monday - Thursday: 11:00 AM - 10:00 PM</p>
+                        <p>Friday - Saturday: 11:00 AM - 11:00 PM</p>
+                        <p>Sunday: 12:00 PM - 9:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bella Vista Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
